@@ -1,0 +1,31 @@
+.item {
+  display: grid;
+  grid-template-columns: 260px 140px;
+  align-items: center;
+  font-size: 36px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: transparent;
+  font-size: 36px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #777777;
+}
+
+.count {
+  min-width: 44px;
+  text-align: center;
+}

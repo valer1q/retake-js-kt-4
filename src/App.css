@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.empty {
+  font-size: 20px;
+  color: #666666;
+}
+
+.add-button {
+  padding: 12px 24px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #eeeeee;
+}
